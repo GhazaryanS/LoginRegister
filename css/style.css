@@ -1,0 +1,32 @@
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.log-reg-cnt {
+    width: 500px;
+    margin: 100px auto;
+    padding: 50px 20px;
+    background-color: rgb(49 176 189 / 10%);
+    border-radius: 5%;
+    box-shadow:3px 3px rgb(236 236 236);
+    text-align: center;
+}
+
+.log-reg-cnt button{
+    margin:0 5px;
+}
+
+.log-reg-cnt input {
+    margin-bottom: 2rem;
+}
